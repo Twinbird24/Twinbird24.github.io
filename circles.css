@@ -9,3 +9,33 @@ html, body {
 	margin: 0;
 	overflow-y: hidden;
 }
+
+h1 {
+	color: white;
+	font-family: monospace;
+}
+
+div {
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -150px;
+}
+
+h1 {
+  animation: fade 5s 1;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+  	opacity: 0.0;
+  }
+}
